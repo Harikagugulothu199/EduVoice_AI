@@ -97,9 +97,9 @@ if st.button("🤖 Ask EduVoice AI"):
             st.error("Something went wrong.")
 
     if response is not None:
-        st.success("Answer")
-        st.write(response.text)
-        speak_with_stop(response.text)
+    	st.success("Answer")
+    	st.write(response.text)
+    	speak_with_stop(response.text)
            
 # Extra sections
 st.divider()
